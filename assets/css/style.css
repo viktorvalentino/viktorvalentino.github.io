@@ -3,10 +3,13 @@
   height: 60px;
   background-color: 
   }
-  
+
+/* kalo nggak mau pakai <img> hapus dari sini */
 .nav-bar h2{
   display: block;
   color: red;
   height: 60px
   position: absolute
   top: 45%
+  }
+/* Boleh dihapus sampai sini */
