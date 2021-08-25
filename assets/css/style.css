@@ -2,6 +2,9 @@ body{
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 
 .jumbotron-banner{
   padding: 200px 0 135px 0;
