@@ -11,10 +11,10 @@ a{
   background-image: url(Header-jumbotron.png);
   background-size: cover;
   color: #fff;
-  text-alignment: center;
+  text-align: center;
 }
 
-.container a{
+.join-btn{
   display: inline-block;
   padding: 12px 20px;
   background-color: #0000cc;
