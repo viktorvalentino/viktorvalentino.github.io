@@ -18,6 +18,14 @@ a{
   color: #000
 }
 
+.jumbotron-banner h2{
+  font-size: 35px;
+}
+
+.jumbotron-banner h1{
+  font-size: 40px;
+}
+
 .join-btn{
   display: inline-block;
   padding: 12px 20px;
