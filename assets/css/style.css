@@ -7,7 +7,7 @@ body{
   padding-top: 200px 0 135px 0;
   background-image: url(Header-jumbotron.png);
   background-size: cover;
-  width: 100%;
+  color: #fff;
   text-alignment: center;
 }
 
