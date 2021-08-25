@@ -4,10 +4,7 @@ body{
 }
 
 .jumbotron-banner{
-  padding-top: 200px;
-  padding-bottom: 135px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 200px 0 135px 0;
   background-image: url(Header-jumbotron.png);
   background-size: cover;
   width: 100%;
@@ -18,5 +15,4 @@ body{
   display: inline-block;
   padding: 12px 20px;
   background-color: #0000cc;
-  color: #fff;
 }
