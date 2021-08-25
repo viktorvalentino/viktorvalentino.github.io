@@ -1,15 +1,16 @@
-.nav-bar{
-  width: 1170px;
-  height: 60px;
-  background-color: 
-  }
+.jumbotron-banner{
+  padding-top: 200px;
+  padding-bottom: 135px;
+  background-image: url(https://www.pngkit.com/view/u2e6t4o0t4q8t4i1_header-png-pic-header-png/);
+  background-size: cover;
+  width: 100%;
+  max-width: 1170px;
+}
 
-/* kalo nggak mau pakai <img> hapus dari sini */
-.nav-bar h2{
-  display: block;
-  color: red;
-  height: 60px
-  position: absolute
-  top: 45%
-  }
-/* Boleh dihapus sampai sini */
+.jumbotron-banner a{
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #0000cc;
+  text-alignment: center;
+  color: #fff;
+}
