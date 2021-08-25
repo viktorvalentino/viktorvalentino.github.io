@@ -1,10 +1,11 @@
 .jumbotron-banner{
   padding-top: 200px;
   padding-bottom: 135px;
-  background-image: url(assets/css/Header-jumbotron.png);
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url(Header-jumbotron.png);
   background-size: cover;
   width: 100%;
-  max-width: 1170px;
 }
 
 .container a{
