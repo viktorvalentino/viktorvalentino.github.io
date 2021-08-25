@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.jumbotron-banner{
+  padding: 200px 0 135px 0;
+  background-image: url(Header-jumbotron.png);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron-banner h1,h2{
+  color: #000
+}
+
+.jumbotron-banner h2{
+  font-size: 35px;
+}
+
+.jumbotron-banner h1{
+  font-size: 40px;
+}
+
+.join-btn{
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #0000cc;
+  color: #fff
+}
