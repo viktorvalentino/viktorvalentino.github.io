@@ -4,11 +4,20 @@
         display: flex;
         justify-content: center;
     }
+
+    .position-card {
+        width: 30%;
+        margin: .5rem 0;
+    }
 }
 
 @media all and (max-width: 900px) {
     .list-logo img {
         width: 25rem;
+    }
+
+    .position-card {
+        width: 40%;
     }
 }
 /* Mobile Smartphone */
@@ -22,6 +31,10 @@
 
     .ben-text {
         font-size: 1.3rem;
+    }
+
+    .position-card {
+        width: 50%;
     }
 }
 
