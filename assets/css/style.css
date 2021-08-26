@@ -64,7 +64,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../resource/image/background.png);
+    background-image: url(../img/video-banner.png);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
 }
