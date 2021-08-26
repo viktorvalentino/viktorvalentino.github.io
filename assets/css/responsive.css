@@ -1,0 +1,40 @@
+/* Tablet */
+@media all and (max-width: 1000px) {
+    .list-logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .list-logo img {
+        width: 25rem;
+    }
+}
+/* Mobile Smartphone */
+@media all and (max-width: 670px) {
+    .list-logo img {
+        width: 25rem;
+    }
+    .list i {
+        font-size: 1rem;
+    }
+
+    .ben-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 435px) {
+    .list-logo img {
+        width: 18rem;
+    }
+
+    .list i {
+        font-size: 1rem;
+    }
+
+    .ben-text {
+        font-size: 1.3rem;
+    }
+}
