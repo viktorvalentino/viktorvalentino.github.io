@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -47,6 +48,8 @@ li {
   background-color: #0000cc;
   color: #fff
 }
+/* End of Header */
+
 /* Nav Menu */
 .mob-nav{
 	position: fixed;
@@ -106,7 +109,6 @@ li {
 	text-shadow: 1px 1px #000
 }
 /*Nav Menu End*/
-/* End of Header */
 
 /* Content field three */
 .content-field-three {
@@ -269,7 +271,7 @@ li {
 .positions-card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-right: -2rem /* -32px */;
 }
 
