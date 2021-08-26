@@ -112,7 +112,7 @@ li {
 
 /* Content field three */
 .content-field-three {
-  opacity: inherit;
+  background-size: cover;
 }
 
 .cf-three-title {
