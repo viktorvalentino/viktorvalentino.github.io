@@ -19,6 +19,24 @@
     .position-card {
         width: 40%;
     }
+
+    .content-wrap{
+        display: block;
+        margin: 24px 0;
+        padding: 0 5%;
+    }
+
+    .content-one-left, .content-one-right {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .video-view {
+        height: 320px;
+    }
 }
 /* Mobile Smartphone */
 @media all and (max-width: 670px) {
@@ -36,6 +54,10 @@
     .position-card {
         width: 50%;
     }
+
+    .video-view {
+        height: 230px;
+    }
 }
 
 @media all and (max-width: 435px) {
@@ -49,6 +71,10 @@
 
     .ben-text {
         font-size: 1.3rem;
+    }
+
+    .video-view {
+        height: 200px;
     }
 }
 
