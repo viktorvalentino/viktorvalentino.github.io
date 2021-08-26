@@ -17,7 +17,7 @@
     }
 
     .position-card {
-        width: 40%;
+        width: 50%;
     }
 
     .content-wrap{
@@ -52,7 +52,7 @@
     }
 
     .position-card {
-        width: 50%;
+        width: 70%;
     }
 
     .video-view {
@@ -83,4 +83,10 @@
 		display: block;
 		z-index: 10
 	}
+}
+
+@media all and (max-width: 1190px) {
+    .lists {
+        justify-content: center;
+    }
 }

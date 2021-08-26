@@ -228,6 +228,7 @@ li {
 .team-cards p,
 .social-media {
   text-align: center;
+  padding: .5rem 0;
 }
 
 .team-card {
