@@ -215,7 +215,7 @@ li {
 .cf-three-title {
   font-size: 1.5rem;
   text-align: center;
-  padding: 2rem 0;
+  padding-top: 3rem;
 }
 
 .team-cards {
@@ -306,7 +306,7 @@ li {
 /* Content field four */
 .cf-four-title h3 {
   text-align: center;
-  padding: 2rem 0;
+  padding-top: 3rem;
   font-size: 1.5rem;
 }
 
