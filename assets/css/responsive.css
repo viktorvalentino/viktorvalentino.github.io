@@ -1,0 +1,7 @@
+/* Mobile Layout */
+@media (max-width: 800px) {
+	.mob-nav{
+		display: block;
+		z-index: 10
+	}
+}
