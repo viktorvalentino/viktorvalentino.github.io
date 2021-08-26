@@ -100,7 +100,7 @@ a{
 }
 
 .social-media > a > i:hover {
-  background: rgb(59,14,142);
+  background: rgb(21, 3, 56);
   background: linear-gradient(59deg, rgba(48, 10, 117, 1) 0%, rgba(125,42,214,1) 58%, rgba(171,62,217,1) 91%);
   color: #fff;
   transition: 0.8s;
