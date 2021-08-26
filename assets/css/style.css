@@ -10,13 +10,18 @@ body {
 a {
   text-decoration: none;
 }
+
+li {
+  list-style: none;
+}
+
 .container {
   padding: 0 1.5rem;
   margin: 0 auto;
 }
 
 /* Header */
-.jumbotron-banner {
+.jumbotron-banner{
   padding: 200px 0 135px 0;
   background-image: url(/assets/img/Header-jumbotron.png);
   background-size: cover;
@@ -24,26 +29,79 @@ a {
   text-align: center;
 }
 
-.jumbotron-banner h1,
-h2 {
-  color: #000;
+.jumbotron-banner h1,h2{
+  color: #000
 }
 
-.jumbotron-banner h2 {
+.jumbotron-banner h2{
   font-size: 35px;
 }
 
-.jumbotron-banner h1 {
+.jumbotron-banner h1{
   font-size: 40px;
 }
 
-.join-btn {
+.join-btn{
   display: inline-block;
   padding: 12px 20px;
   background-color: #0000cc;
-  color: #fff;
+  color: #fff
 }
-/* Nav Button */
+/* Nav Menu */
+.mob-nav{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	color: white;
+	display: none;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+	float: right;
+}
+
+.navbtn {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.1);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-content a:hover {background-color: rgba(0,0,0,0.1);}
+
+.dropdown:hover .nav-content {display: block;}
+
+.dropdown:hover .navbtn {background-color: rgba(0,0,0,0.1);}
+
+
+.nav-menu li{
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+	display: none;
+}
+
 .mob-nav{
 	position: fixed;
 	width: 100%;
@@ -101,7 +159,9 @@ h2 {
 	color: white;
 	text-shadow: 1px 1px #000
 }
+
 /*End of Nav*/
+
 /* End of Header */
 
 /* Content field three */
@@ -181,9 +241,49 @@ h2 {
 /* End of Content field three */
 
 /* Content field four */
+.cf-four-title h3 {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
 
+.list-logo img {
+  box-sizing: border-box;
+  width: 55rem;
+  transform: rotateY(180deg);
+}
+
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.list li {
+  text-align: left;
+  margin: 2rem auto;
+}
+
+.list i {
+  color: #4A70E8;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  position: relative;
+  animation-name: bulat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bulat {
+  from {color: #4A70E8;}
+  to {color: #1e00ff;}
+}
+
+.ben-text {
+  font-size: 1.8rem;
+  color: #424242;
+}
 /* End of Content field four */
-/* End of Content field three */
 
 /* Footer */
 .footer-top {
