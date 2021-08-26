@@ -117,3 +117,33 @@ a{
 /* Content field four */
 
 /* End of Content field four */
+/* End of Content field three */
+
+/* Footer */
+.footer-top {
+  padding: 60px;
+  text-align: left;
+  color: rgba(94, 86, 86, 0.8);
+}
+
+.ft-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.about {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px none ;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about p {
+  color: #000;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  text-align: center;
+}
+/* End of Footer */
