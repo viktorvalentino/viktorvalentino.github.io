@@ -135,7 +135,7 @@ li {
 
 .team-card {
   padding: 30px 20px;
-  border-radius: 2rem;
+  border-radius: .4rem;
   margin-top: 2.5em;
   margin-bottom: 3em;
   color: #424242;
@@ -160,8 +160,17 @@ li {
   align-items: center;
 }
 
+@keyframes foto {
+  from {bottom: -1px;}
+  to {bottom:3px;}
+}
+
 .card-logo img {
-  border-radius: 1rem;
+  border-radius: .2rem;
+  position: relative;
+  animation-name: foto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .social-media > a > i {
